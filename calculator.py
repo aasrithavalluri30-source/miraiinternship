@@ -2,9 +2,9 @@ import streamlit as st
 
 st.set_page_config(page_title="Calculator", page_icon="🧮", layout="centered")
 
-st.title("🧮 Simple Calculator")
+st.title(" Simple Calculator")
 
-# --- Session state to hold the expression ---
+
 if "expression" not in st.session_state:
     st.session_state.expression = ""
 
@@ -29,7 +29,7 @@ def calculate():
     except Exception:
         st.session_state.expression = "Error"
 
-# --- Display screen (plain, not a widget, so no state conflicts) ---
+
 st.markdown(
     f"""
     <div style="
@@ -52,7 +52,7 @@ st.markdown(
     unsafe_allow_html=True,
 )
 
-# --- Button layout ---
+
 buttons = [
     ["7", "8", "9", "/"],
     ["4", "5", "6", "*"],
