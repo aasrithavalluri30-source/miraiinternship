@@ -22,7 +22,7 @@ A Streamlit application that collects a user's name and message, validates the i
 
 ---
 
-##  Assignment 3: Multiuniverse of Bots
+##  Assignment 3: Multiverse of Bots
 
 ### Overview
 A Streamlit-based AI chatbot application that allows users to interact with multiple AI personalities. Each bot has its own behavior and maintains conversational context to provide engaging and personalized interactions.
