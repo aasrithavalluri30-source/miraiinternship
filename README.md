@@ -2,7 +2,11 @@ Mirai Internship Projects
 
 This repository contains assignments completed as part of the **Mirai Internship**.
 
-## Assignment 1: Identity Echo Interface
+##  Assignment 1: Calculator
+A Python calculator application that performs basic arithmetic operations through a simple interface.
+
+**File:** `calculator.py`
+## Assignment 2: Identity Echo Interface
 
 ### Overview
 A Streamlit application that collects a user's name and message, validates the input, and displays a personalized response along with an estimated token cost.
@@ -18,7 +22,7 @@ A Streamlit application that collects a user's name and message, validates the i
 
 ---
 
-##  Assignment 2: Multiuniverse of Bots
+##  Assignment 3: Multiuniverse of Bots
 
 ### Overview
 A Streamlit-based AI chatbot application that allows users to interact with multiple AI personalities. Each bot has its own behavior and maintains conversational context to provide engaging and personalized interactions.
