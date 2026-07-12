@@ -22,10 +22,13 @@ This upgrades the chatbot from **stateless** (forgot everything on every rerun) 
 3. New input is captured with `if user_message := st.chat_input(...)`
 4. Both the user's message and Gemini's response are appended back into `st.session_state.messages`
 
-## Run Locally
+## Screenshots
 
-1. Install dependencies:
-```bash
-   pip install streamlit google-genai python-dotenv
-```
-2. Add your Gemini API key to a `.env` file in this folder:
+![Multiverse chat 1](Multiverse1.png)
+
+![Multiverse chat 2](Multiverse2.png)
+
+![Multiverse chat 3](Multiverse3.png)
+
+![Multiverse chat 4](Multiverse4.png)
+
