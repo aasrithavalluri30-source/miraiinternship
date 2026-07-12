@@ -2,11 +2,11 @@ Mirai Internship Projects
 
 This repository contains assignments completed as part of the **Mirai Internship**.
 
-##  Assignment 1: Calculator
+##  Assignment 1 Practice (Demo): Calculator
 A Python calculator application that performs basic arithmetic operations through a simple interface.
 
 **File:** `calculator.py`
-## Assignment 2: Identity Echo Interface
+## Assignment 1 Main: Identity Echo Interface
 
 ### Overview
 A Streamlit application that collects a user's name and message, validates the input, and displays a personalized response along with an estimated token cost.
@@ -22,7 +22,7 @@ A Streamlit application that collects a user's name and message, validates the i
 
 ---
 
-##  Assignment 3: Multiverse of Bots
+##  Assignment 2: Multiverse of Bots
 
 ### Overview
 A Streamlit-based AI chatbot application that allows users to interact with multiple AI personalities. Each bot has its own behavior and maintains conversational context to provide engaging and personalized interactions.
@@ -35,10 +35,13 @@ A Streamlit-based AI chatbot application that allows users to interact with mult
 - Secure API key management using `.env`
 
 **File:** `upgraded_multiuniverse_of_bots.py`
+## Multiverse Assignment 3 — The Memory Vault (Stateful Chatbot)
+A Streamlit chatbot with persistent memory, letting you talk to historical figures like Einstein and Marie Curie.
+ [View project folder](./multiverse-assignment-3/)
 
 ---
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 - Python
 - Streamlit
