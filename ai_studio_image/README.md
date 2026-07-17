@@ -31,10 +31,10 @@ https://drive.google.com/file/d/1xmRRKRfNZTGuZ_7WYPky31tQujvZutur/view?usp=shari
 
 | | |
 |---|---|
-| ![Home screen](./screenshots/image1.png) | ![Sidebar settings](./screenshots/image2.png) |
-| ![Generating an image](./screenshots/image3.png) | ![Generated result](./screenshots/Image4.png) |
-| ![Magic Enhance enabled](./screenshots/Image5.png) | ![Surprise Me in action](./screenshots/Image6.png) |
-| ![Download button](./screenshots/Image7.png) | ![Session history gallery](./screenshots/Image8.png) |
+| (./screenshots/image1.png) | (./screenshots/image2.png) |
+| (./screenshots/image3.png) | (./screenshots/Image4.png) |
+| (./screenshots/Image5.png) | (./screenshots/Image6.png) |
+| (./screenshots/Image7.png) | (./screenshots/Image8.png) |
 
 ---
 
