@@ -40,6 +40,8 @@ A Streamlit chatbot with persistent memory, letting you talk to historical figur
  [View project folder](./multiverse-assignment-3/)
 
 ---
+## Assignment 4 — AI Image Studio
+An AI-powered image generation app built with Streamlit and the Pollinations AI API, letting you create custom images from text prompts and art styles. [View project folder](./ai_studio_image)
 
 ##  Technologies Used
 
@@ -47,6 +49,7 @@ A Streamlit chatbot with persistent memory, letting you talk to historical figur
 - Streamlit
 - Google Gemini API
 - python-dotenv
+- Pollinations AI
 
 
 Completed as part of the **Mirai Internship**.
