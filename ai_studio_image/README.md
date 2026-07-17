@@ -31,10 +31,10 @@ https://drive.google.com/file/d/1xmRRKRfNZTGuZ_7WYPky31tQujvZutur/view?usp=shari
 
 | | |
 |---|---|
-| (./screenshots/image1.png) | (./screenshots/image2.png) |
-| (./screenshots/image3.png) | (./screenshots/Image4.png) |
-| (./screenshots/Image5.png) | (./screenshots/Image6.png) |
-| (./screenshots/Image7.png) | (./screenshots/Image8.png) |
+| (screenshots/image1.png) | (screenshots/image2.png) |
+| (screenshots/image3.png) | (screenshots/Image4.png) |
+| (screenshots/Image5.png) | (screenshots/Image6.png) |
+| (screenshots/Image7.png) | (screenshots/Image8.png) |
 
 ---
 
