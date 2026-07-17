@@ -46,7 +46,7 @@ def set_background(image_path):
         unsafe_allow_html=True
     )
 
-set_background("assets/wallpaper.png")
+set_background("ai_studio_image/wallpaper.png")
 
 # Sidebar settings
 st.sidebar.header("Settings")
