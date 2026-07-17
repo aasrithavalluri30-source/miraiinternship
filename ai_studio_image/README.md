@@ -32,7 +32,7 @@ https://drive.google.com/file/d/1xmRRKRfNZTGuZ_7WYPky31tQujvZutur/view?usp=shari
 | | |
 |---|---|
 | ![Screenshot](screenshots/image1.png) | ![Screenshot](screenshots/image2.png) |
-| ![Screenshot](screenshots/image3.png) | ![Screenshot](screenshots/Image4.png) |
+| ![Screenshot](screenshots/Image3.png) | ![Screenshot](screenshots/Image4.png) |
 | ![Screenshot](screenshots/Image5.png) | ![Screenshot](screenshots/Image6.png) |
 | ![Screenshot](screenshots/Image7.png) | ![Screenshot](screenshots/Image8.png) |
 
