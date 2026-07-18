@@ -7,7 +7,7 @@ An interactive AI-powered image generation studio built with **Streamlit** and t
 
 ## 🎥 Demo
 
-https://drive.google.com/file/d/1xmRRKRfNZTGuZ_7WYPky31tQujvZutur/view?usp=sharing
+https://drive.google.com/file/d/1pw7O7ecI6sleQbX2rtS7AtIr4tojjXH2/view?usp=sharing
 
 
 
