@@ -35,6 +35,7 @@ https://drive.google.com/file/d/1pw7O7ecI6sleQbX2rtS7AtIr4tojjXH2/view?usp=shari
 | ![Screenshot](screenshots/Image3.png) | ![Screenshot](screenshots/Image4.png) |
 | ![Screenshot](screenshots/Image5.png) | ![Screenshot](screenshots/Image6.png) |
 | ![Screenshot](screenshots/Image7.png) | ![Screenshot](screenshots/Image8.png) |
+| ![Screenshot](screenshots/Image9.png) | ![Screenshot](screenshots/Image10.png) |
 
 ## 🛠️ Tech Stack
 
