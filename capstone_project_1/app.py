@@ -16,14 +16,13 @@ loaded = load_dotenv(dotenv_path=ENV_PATH)
 if not loaded:
     print(f"⚠️ Warning: no .env file found at '{ENV_PATH}'. Check ENV_PATH in app.py.")
 
-# ============================================================
+
 # PAGE CONFIG (must be the first Streamlit command)
-# ============================================================
 st.set_page_config(page_title="AI Visual Novel", layout="wide")
 
-# ============================================================
+
 # CUSTOM BACKGROUND
-# ============================================================
+
 BACKGROUND_IMAGE_PATH = "background.png"
 
 def set_background(image_path):
@@ -75,9 +74,9 @@ def set_background(image_path):
 
 set_background(BACKGROUND_IMAGE_PATH)
 
-# ============================================================
+
 # PHASE 1: GEMINI CLIENT (cached so it's not rebuilt every rerun)
-# ============================================================
+
 GEMINI_API_KEY = os.getenv("gemini_new_key")
 GEMINI_MODEL = "gemini-2.5-flash"
 
@@ -91,9 +90,9 @@ def get_gemini_client():
 
 client = get_gemini_client()
 
-# ============================================================
+
 # SIDEBAR: STORY SETTINGS
-# ============================================================
+
 st.sidebar.title("📖 Story Settings")
 
 genre = st.sidebar.selectbox(
@@ -119,9 +118,9 @@ art_style = st.sidebar.selectbox(
 
 st.sidebar.divider()
 
-# ============================================================
+
 # SIDEBAR: VOICE SETTINGS (edge-tts)
-# ============================================================
+
 st.sidebar.subheader("🎙️ Narration Voice")
 
 # A handful of edge-tts voices spanning different genders/accents.
@@ -149,9 +148,9 @@ speed_rate = f"{'+' if speed_percent >= 0 else ''}{speed_percent}%"
 
 st.sidebar.divider()
 
-# ============================================================
+
 # SIDEBAR: SESSION HISTORY
-# ============================================================
+
 st.sidebar.subheader("📜 Session History")
 if "history" in st.session_state and st.session_state.history:
     for i, turn in enumerate(st.session_state.history, start=1):
@@ -161,9 +160,9 @@ if "history" in st.session_state and st.session_state.history:
 else:
     st.sidebar.caption("No story turns yet.")
 
-# ============================================================
+
 # SIDEBAR: CLEAR CONVERSATION
-# ============================================================
+
 if st.sidebar.button("🗑️ Clear Conversation", type="secondary"):
     st.session_state.chat = None
     st.session_state.history = []
@@ -171,9 +170,9 @@ if st.sidebar.button("🗑️ Clear Conversation", type="secondary"):
     st.session_state.story_started = False
     st.rerun()
 
-# ============================================================
+
 # SESSION STATE INITIALIZATION
-# ============================================================
+
 if "chat" not in st.session_state:
     st.session_state.chat = None
 if "history" not in st.session_state:
@@ -183,9 +182,9 @@ if "current_options" not in st.session_state:
 if "story_started" not in st.session_state:
     st.session_state.story_started = False
 
-# ============================================================
+
 # PHASE 2: STRUCTURED JSON ENGINE
-# ============================================================
+
 def build_system_prompt(genre, art_style):
     """Instructs Gemini to ALWAYS reply with strict JSON, nothing else."""
     return f"""
@@ -235,9 +234,9 @@ def generate_image(image_prompt):
         st.toast("🖼️ Image server is busy, skipping visual...")
         return None
 
-# ============================================================
+
 # PHASE 4: TEXT-TO-SPEECH (edge-tts)
-# ============================================================
+
 async def _edge_tts_generate(text, voice, rate):
     """Async helper: streams TTS audio bytes from edge-tts into memory."""
     communicate = edge_tts.Communicate(text=text, voice=voice, rate=rate)
@@ -263,9 +262,9 @@ def generate_audio(story_text, voice=selected_voice, rate=speed_rate):
         st.toast("🔇 Narration failed, continuing without audio...")
         return None
 
-# ============================================================
+
 # TURN ENGINE — sends a message to Gemini and builds one story turn
-# ============================================================
+
 def take_turn(user_message):
     with st.spinner("The story is unfolding..."):
         try:
@@ -294,9 +293,9 @@ def take_turn(user_message):
         })
         st.session_state.current_options = options
 
-# ============================================================
+
 # MAIN UI
-# ============================================================
+
 st.title("📖 AI-Powered Visual Novel")
 st.caption(f"Genre: {genre} · Art Style: {art_style} · Voice: {voice_label}")
 
