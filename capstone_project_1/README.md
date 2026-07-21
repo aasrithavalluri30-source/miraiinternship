@@ -10,13 +10,15 @@ Built as the Capstone Mini-Project for MirAI School of Technology's Virtual Summ
 
 ▶️ **[Watch the demo video](PASTE_YOUR_DEMO_VIDEO_LINK_HERE)**
 
-### Screenshots
+## 🖼️ Screenshots
 
-| Story Settings | Story in Progress | Dynamic Choices |
-|---|---|---|
-| (screenshots/story-settings.png) | ![Story in Progress](screenshots/story-progress.png) | ![Dynamic Choices](screenshots/choices.png) |
+| | |
+|---|---|
+| ![Screenshot](photos/1.png) | ![Screenshot](photos/2.png) |
+| ![Screenshot](photos/3.png) | ![Screenshot](photos/4.png) |
+| ![Screenshot](photos/5.png) | ![Screenshot](photos/6.png) |
+| ![Screenshot](photos/7.png) 
 
-> Screenshots are in the [`screenshots/`](./screenshots) folder.
 
 ---
 
