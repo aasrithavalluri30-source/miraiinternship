@@ -52,7 +52,7 @@ An AI-powered image generation app built with Streamlit and the Pollinations AI 
 - Pollinations AI
 
 
-Completed as part of the **Mirai Internship**.
+
 
 ---
 ## Assignment 4 — Capstone Project : AI-Powered Visual Novel
@@ -68,4 +68,4 @@ Technologies Used
 * edge-tts
 * python-dotenv
 
-Completed as part of the MirAI Internship — AI Builder Track Capstone Project.
+
