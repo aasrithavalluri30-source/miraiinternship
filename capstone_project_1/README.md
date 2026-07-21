@@ -2,13 +2,13 @@
 
 A "Choose Your Own Adventure" style visual novel built with Streamlit, powered by **Google Gemini** for stateful story generation, **Pollinations** for AI-generated scene art, and **edge-tts** for narrated audio — all wrapped in a custom-themed Streamlit UI.
 
-Built as the Capstone Mini-Project for MirAI School of Technology's Virtual Summer Internship 2026 — "AI Builder" Track.
+Built as the Capstone Mini-Project for Mirai School of Technology's Virtual Summer Internship 2026 — "AI Builder" Track.
 
 ---
 
 ## 🎥 Demo
 
-▶️ **[Watch the demo video](PASTE_YOUR_DEMO_VIDEO_LINK_HERE)**
+▶️ **[Watch the demo video](https://drive.google.com/file/d/1a6HCsphfrjY0n5eZWiSIh6QF1SUpxOf-/view?usp=sharing)**
 
 ## 🖼️ Screenshots
 
@@ -106,4 +106,4 @@ streamlit run app.py
 
 ## 🙌 Acknowledgments
 
-Built for the MirAI School of Technology Virtual Summer Internship 2026 — "AI Builder" Track Capstone Project.
+Built for the Mirai School of Technology Virtual Summer Internship 2026 — "AI Builder" Track Capstone Project.
