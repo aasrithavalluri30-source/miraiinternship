@@ -53,3 +53,18 @@ An AI-powered image generation app built with Streamlit and the Pollinations AI 
 
 
 Completed as part of the **Mirai Internship**.
+
+---
+Capstone Project — AI-Powered Visual Novel
+An AI-driven "Choose Your Own Adventure" engine built with Streamlit, combining Google Gemini for stateful story generation, Pollinations AI for scene art, and edge-tts for narrated audio — with structured JSON parsing and dynamically generated choice buttons. [View project folder](./capstone_project_1)
+
+Technologies Used
+
+* Python
+* Streamlit
+* Google Gemini API
+* Pollinations AI
+* edge-tts
+* python-dotenv
+
+Completed as part of the MirAI Internship — AI Builder Track Capstone Project.
