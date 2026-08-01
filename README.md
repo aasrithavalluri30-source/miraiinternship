@@ -80,3 +80,11 @@ An AI-driven "Choose Your Own Adventure" engine built with Streamlit, combining 
 👉 [View project folder](https://github.com/aasrithavalluri30-source/miraiinternship/tree/main/capstone_project_1)
 
 **Technologies used:** Python, Streamlit, Google Gemini API, Pollinations AI, edge-tts, python-dotenv
+
+---
+
+## Assignment 7 — Life-OS: Wellbeing Dashboard
+A Streamlit dashboard that tracks daily screen time, splits it into productive vs. distracting categories, and pairs it with an AI coach (Google Gemini) that gives specific, real-world alternatives instead of generic advice — plus a shareable accountability link and a styled screentime "receipt."
+👉 [View project folder](https://github.com/aasrithavalluri30-source/miraiinternship/tree/main/Life-OS)
+
+**Technologies used:** Python, Streamlit, Pandas, Plotly, Google Gemini API, python-dotenv
