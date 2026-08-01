@@ -68,4 +68,7 @@ Technologies Used
 * edge-tts
 * python-dotenv
 
-
+---
+## Assignment 5 — Custom GitHub Profile (Terminal / neofetch style)
+Unlocked GitHub's hidden profile-README feature to build a custom "hacker terminal" homepage — ASCII art, system-info style bio, and live-updating stats cards (commits, streak, top languages) via open-source GitHub stat trackers.
+👉 [View my GitHub profile](https://github.com/aasrithavalluri30-source)
