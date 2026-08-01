@@ -91,5 +91,6 @@ streamlit run app.py
 
 🌐 [Try it live](https://life-os-wellbeing.streamlit.app)
 ---
-🙌 Acknowledgments
+**🙌 Acknowledgments**
+
 Built for the Mirai School of Technology Virtual Summer Internship 2026
