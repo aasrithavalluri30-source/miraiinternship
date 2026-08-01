@@ -72,3 +72,11 @@ Technologies Used
 ## Assignment 5 — Custom GitHub Profile (Terminal / neofetch style)
 Unlocked GitHub's hidden profile-README feature to build a custom "hacker terminal" homepage — ASCII art, system-info style bio, and live-updating stats cards (commits, streak, top languages) via open-source GitHub stat trackers.
 👉 [View my GitHub profile](https://github.com/aasrithavalluri30-source)
+
+---
+
+## Project 6 — Capstone Project: AI-Powered Visual Novel
+An AI-driven "Choose Your Own Adventure" engine built with Streamlit, combining Google Gemini for stateful story generation, Pollinations AI for scene art, and edge-tts for narrated audio — with structured JSON parsing and dynamically generated choice buttons.
+👉 [View project folder](https://github.com/aasrithavalluri30-source/miraiinternship/tree/main/capstone_project_1)
+
+**Technologies used:** Python, Streamlit, Google Gemini API, Pollinations AI, edge-tts, python-dotenv
