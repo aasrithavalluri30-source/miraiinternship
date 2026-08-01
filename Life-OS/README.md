@@ -86,5 +86,10 @@ streamlit run app.py
 `screentime.csv` and `wallpaper.png` are already included, so the app runs with a working dataset out of the box.
 
 ---
+
+## Live Demo
+
+🌐 [Try it live](https://life-os-wellbeing.streamlit.app)
+---
 🙌 Acknowledgments
 Built for the Mirai School of Technology Virtual Summer Internship 2026
