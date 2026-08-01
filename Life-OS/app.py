@@ -544,7 +544,7 @@ if date_chat_key not in st.session_state:
 
 start_col, _ = st.columns([1, 3])
 with start_col:
-    start_clicked = st.button("🎙️ Start / Refresh Coaching Session", type="primary", use_container_width=True)
+    start_clicked = st.button("Coaching Session", type="primary", use_container_width=True)
 
 if start_clicked:
     with st.spinner("Your coach is reviewing your data..."):
