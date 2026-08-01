@@ -1,4 +1,4 @@
-# 🧠 Life-OS : Wellbeing Dashboard
+# 🧠 Life-OS Wellbeing Dashboard
 
 A Streamlit dashboard that tracks daily screen time, separates it into productive vs. distracting categories, and pairs the data with an AI coach (powered by Google Gemini) that gives specific, real-world suggestions instead of generic "use your phone less" advice.
 
@@ -29,11 +29,11 @@ A Streamlit dashboard that tracks daily screen time, separates it into productiv
 
 | | |
 |---|---|
-| ![Screenshot](images/image1.png) | ![Screenshot](images/image2.png) |
-| ![Screenshot](images/Image3.png) | ![Screenshot](images/Image4.png) |
-| ![Screenshot](images/Image5.png) | ![Screenshot](images/Image6.png) |
-| ![Screenshot](images/Image7.png) | ![Screenshot](images/Image8.png) |
-| ![Screenshot](images/Image9.png) | ![Screenshot](images/Image10.png) |
+| ![Screenshot](images/1.png) | ![Screenshot](images/2.png) |
+| ![Screenshot](images/3.png) | ![Screenshot](images/4.png) |
+| ![Screenshot](images/5.png) | ![Screenshot](images/6.png) |
+| ![Screenshot](images/7.png) | ![Screenshot](images/8.png) |
+| ![Screenshot](images/9.png) | ![Screenshot](images/10.png) |
 
 ---
 ## How it's built
