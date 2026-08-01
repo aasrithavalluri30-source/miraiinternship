@@ -32,8 +32,7 @@ A Streamlit dashboard that tracks daily screen time, separates it into productiv
 | ![Screenshot](images/1.png) | ![Screenshot](images/2.png) |
 | ![Screenshot](images/3.png) | ![Screenshot](images/4.png) |
 | ![Screenshot](images/5.png) | ![Screenshot](images/6.png) |
-| ![Screenshot](images/7.png) | ![Screenshot](images/8.png) |
-| ![Screenshot](images/9.png) | ![Screenshot](images/10.png) |
+| ![Screenshot](images/7.png) 
 
 ---
 ## How it's built
