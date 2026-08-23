@@ -77,7 +77,6 @@ streamlit run app.py
 
 ## 🌐 Live Demo
 
-*Add your Streamlit Community Cloud link here once deployed.*
 
 ---
 
