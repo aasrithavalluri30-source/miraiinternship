@@ -3,6 +3,7 @@
 A mood-driven book discovery app. Instead of searching by title or author, you describe the *feeling* you want to disappear into — through text, an uploaded moodboard image, or even a spoken voice note — and Gemini finds three real books that actually match it.
 
 Built with a hand-crafted glassmorphic, cosmic UI: animated starfields, aurora gradients, and a color theme that shifts per genre.
+📄 See [`DESIGN.md`](./DESIGN.md) for the full technical design document — data flow, API integration strategy, and a breakdown of every logic module.
 
 ---
 
