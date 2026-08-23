@@ -92,7 +92,7 @@ A Streamlit dashboard that tracks daily screen time, splits it into productive v
 ---
 
 ## Capstone Project — Vibe Shelf: Find Your Next Story
-A mood-driven book discovery app powered by Google Gemini — describe a vibe through text, an uploaded moodboard image, or a spoken voice note, and get three real book matches with hard constraints against hallucination. Includes a personal shelf with ratings/reviews and an open-ended Book Chat companion for roleplay, recommendations, and literary Q&A.
+A mood-driven book discovery app powered by Google Gemini : describe a vibe through text, an uploaded moodboard image, or a spoken voice note, and get three real book matches with hard constraints against hallucination. Includes a personal shelf with ratings/reviews and an open-ended Book Chat companion for roleplay, recommendations, and literary Q&A.
 👉 [View project folder](https://github.com/aasrithavalluri30-source/miraiinternship/tree/main/capstone_project_final)
 
 **Technologies used:** Python, Streamlit, Google Gemini API (text, image & audio input), Pandas, Pillow, python-dotenv
