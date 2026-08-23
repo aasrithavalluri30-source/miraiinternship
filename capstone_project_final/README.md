@@ -1,4 +1,4 @@
-# ✦ Vibe Shelf — Find Your Next Story
+# ✦ Vibe Shelf : Find Your Next Story
 
 A mood-driven book discovery app. Instead of searching by title or author, you describe the *feeling* you want to disappear into — through text, an uploaded moodboard image, or even a spoken voice note — and Gemini finds three real books that actually match it.
 
