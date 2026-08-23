@@ -55,7 +55,7 @@ An AI-powered image generation app built with Streamlit and the Pollinations AI 
 
 
 ---
-## Assignment 4 — Capstone Project : The Multi-Modal Visual Novel
+## Assignment 4 — Capstone Mini Project : The Multi-Modal Visual Novel
 
 An AI-driven "Choose Your Own Adventure" engine built with Streamlit, combining Google Gemini for stateful story generation, Pollinations AI for scene art, and edge-tts for narrated audio — with structured JSON parsing and dynamically generated choice buttons. [View project folder](./capstone_project_1)
 
@@ -88,3 +88,11 @@ A Streamlit dashboard that tracks daily screen time, splits it into productive v
 👉 [View project folder](https://github.com/aasrithavalluri30-source/miraiinternship/tree/main/Life-OS)
 
 **Technologies used:** Python, Streamlit, Pandas, Plotly, Google Gemini API, python-dotenv
+
+---
+
+## Capstone Project — Vibe Shelf: Find Your Next Story
+A mood-driven book discovery app powered by Google Gemini — describe a vibe through text, an uploaded moodboard image, or a spoken voice note, and get three real book matches with hard constraints against hallucination. Includes a personal shelf with ratings/reviews and an open-ended Book Chat companion for roleplay, recommendations, and literary Q&A.
+👉 [View project folder](https://github.com/aasrithavalluri30-source/miraiinternship/tree/main/capstone_project_final)
+
+**Technologies used:** Python, Streamlit, Google Gemini API (text, image & audio input), Pandas, Pillow, python-dotenv
