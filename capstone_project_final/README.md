@@ -86,7 +86,35 @@ $ cat vibe_shelf/architecture.txt
 ```
 
 ---
+## 🏗️ Architecture Diagram
 
+```mermaid
+flowchart TD
+    A[User Input] -->|text mood| D[Streamlit Form]
+    A -->|moodboard image| D
+    A -->|voice note| B[st.audio_input]
+
+    B --> C[Gemini: transcribe_audio]
+    C -->|transcript| D
+
+    D --> E[Prompt Builder<br/>f-string + hard-constraint rules]
+    E --> F[Gemini API<br/>recommend_books]
+
+    F -->|raw JSON text| G[extract_json]
+    G --> H[_looks_like_leaked_reasoning<br/>filter]
+    H -->|clean matches| I[render_result_card<br/>book-card UI]
+
+    I -->|Add to My Books| J[(st.session_state.books)]
+    J --> K[My Books Page<br/>cover cards + data_editor]
+    J --> L[Book Chat<br/>uses saved shelf as context]
+
+    I --> M[(st.session_state.session_history)]
+    L --> M
+
+    style F fill:#8d6bd8,color:#fff
+    style D fill:#2575fc,color:#fff
+    style J fill:#6a11cb,color:#fff
+```
 
 
 **1. Clone the repo**
@@ -117,7 +145,6 @@ streamlit run app.py
 
 ## 🌐 Live Demo
 
-*Add your Streamlit Community Cloud link here once deployed.*
 
 ---
 
