@@ -975,8 +975,8 @@ def render_result_card(book, index):
         unsafe_allow_html=True,
     )
     metric_a, metric_b = st.columns(2)
-    metric_a.metric("Pacing sync", f'{int(book.get("pace_alignment", 80))}%')
-    metric_b.metric("Atmosphere", f'{int(book.get("atmosphere_index", 80))}%')
+    metric_a.metric("Pacing sync", f'{int(book.get("pace_alignment", 80))}%', delta=f'{int(book.get("pace_alignment", 80)) - 80}%')
+    metric_b.metric("Atmosphere", f'{int(book.get("atmosphere_index", 80))}%', delta=f'{int(book.get("atmosphere_index", 80)) - 80}%')
     if st.button("＋ Add to My Books", key=f"add_match_{index}", use_container_width=True):
         result = add_book(str(book.get("title", "")), str(book.get("author", "")), 1, 0, "", "match")
         if result == "added":
