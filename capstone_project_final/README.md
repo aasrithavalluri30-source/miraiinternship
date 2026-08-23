@@ -1,4 +1,4 @@
-# ✦ Vibe Shelf : Find Your Next Story
+# ✦ Vibe Shelf — Find Your Next Story
 
 A mood-driven book discovery app. Instead of searching by title or author, you describe the *feeling* you want to disappear into — through text, an uploaded moodboard image, or even a spoken voice note — and Gemini finds three real books that actually match it.
 
@@ -47,12 +47,52 @@ Built with a hand-crafted glassmorphic, cosmic UI: animated starfields, aurora g
 
 ---
 
-## 🚀 Running It Locally
+## 🖥️ System Snapshot
+
+```text
+$ cat vibe_shelf/system_info.txt
+────────────────────────────────────────────────────
+  PROJECT      : Vibe Shelf — Find Your Next Story
+  CATEGORY     : Aesthetic Book Matchmaker (Capstone #24)
+  FRAMEWORK    : Streamlit
+  AI ENGINE    : Google Gemini (google-genai SDK)
+  INPUT MODES  : text · image (moodboard) · voice (mic)
+  DATA LAYER   : Pandas (map data), st.session_state (shelf)
+  STATE        : persistent across reruns via session_state
+  STATUS       : ● online
+────────────────────────────────────────────────────
+
+$ cat vibe_shelf/architecture.txt
+[ User Input ]
+      │  text / image / audio
+      ▼
+[ Streamlit Form ]───────────────┐
+      │                          │
+      ▼                          ▼
+[ Prompt Builder ]        [ Audio → Transcript ]
+      │  f-string + rules        │
+      ▼                          │
+[ Gemini API ] ◄──────────────────┘
+      │  JSON response
+      ▼
+[ JSON Parser + Leak Filter ]
+      │  clean, verified matches
+      ▼
+[ Render: book-card UI ]
+      │
+      ▼
+[ st.session_state ] ── persists across reruns
+────────────────────────────────────────────────────
+```
+
+---
+
+
 
 **1. Clone the repo**
 ```bash
 git clone https://github.com/aasrithavalluri30-source/miraiinternship.git
-cd miraiinternship/capstone_project_final
+cd "miraiinternship/capstone_project_final"
 ```
 
 **2. Install dependencies**
@@ -77,6 +117,7 @@ streamlit run app.py
 
 ## 🌐 Live Demo
 
+*Add your Streamlit Community Cloud link here once deployed.*
 
 ---
 
