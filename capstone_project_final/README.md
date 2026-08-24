@@ -145,7 +145,7 @@ streamlit run app.py
 ---
 
 ## 🌐 Live Demo
-
+https://vibe-shelf-books.streamlit.app/
 
 ---
 
