@@ -127,7 +127,7 @@ def get_client():
 ```
 
 - `HAS_GENAI` is set at import time via a `try/except ImportError`, so the app never crashes on a missing dependency — it just disables AI features and tells the user why (`st.error` / `st.warning` in the sidebar).
-- Two environment variable names are checked (`GEMINI_API_KEY`, `GOOGLE_API_KEY`) so the app works whether the key was set up via Streamlit Cloud secrets or a more generic Google SDK convention.
+-The key is read from the 'GEMINI_API_KEY' environment variable, matching how it's configured in Streamlit Cloud's Secrets manager.
 - `@st.cache_resource` ensures the client is constructed once per session, not on every rerun — reruns happen constantly in Streamlit (every widget interaction), so this avoids re-authenticating on every keystroke.
 
 ### 3.2 Multimodal input, combined into one request
